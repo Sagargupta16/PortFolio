@@ -3,15 +3,15 @@
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
-    --text-black-900:#302e4d;
     --text-black-700:#504e70;
+    --text-black-900:#212031;
 }
 body.dark{
     --bg-black-900: #151515;
     --bg-black-100: #222222;
     --bg-black-50: #393939;
-    --text-black-900: #ffffff;
     --text-black-700: #e9e9e9;
+    --text-black-900: #ffffff;
 }
 body{
     line-height: 1.5;
@@ -45,7 +45,6 @@ ul{
     z-index: 0;
     overflow-y: auto;
     overflow-x: hidden;
-    transition: all 0.5s ease;
 }
 .section.back-section{
     z-index: 1;
@@ -535,6 +534,11 @@ h3.my-profession{
 .portfolio .container{
     padding-bottom: 40px;
 }
+.portfolio .container .project-head{
+    text-align: center; 
+    margin-bottom:10px;
+    color: var(--text-black-900);
+}
 .portfolio .portfolio-heading{
     flex: 0 0 100%;
     max-width: 100%;
@@ -543,18 +547,59 @@ h3.my-profession{
 .portfolio .portfolio-heading h2{
     color: var(--text-black-900);
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .portfolio .portfolio-item{
     flex: 0 0 50%;
     max-width: 50%;
     margin-bottom: 30px;
 }
+.portfolio .portfolio-item .row{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.btn2{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
+    border: 2px solid var(--bg-black-100);
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.btn2:hover {
+    transform: scale(1.10);
+    background: var(--skin-color);
+}
+.btn2 a {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    transition: all 0.3s ease;
+}
+.btn2 a:hover{
+    color: var(--bg-black-100);
+}
+.btn2 a i {
+    margin-right: 15px;
+}
 .portfolio .portfolio-item-inner{
     border:  6px solid var(--bg-black-100);
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+.portfolio .portfolio-item-inner:hover {
+    transform: scale(1.01);
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
