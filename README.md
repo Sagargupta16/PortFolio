@@ -1,56 +1,100 @@
-<h1 align="Center">Personal PortFolio</h1>
+# Personal Portfolio
 
-<h5 align="center"> Project link -> <a href="https://sagargupta16.github.io/PortFolio/">Portfolio</a></h5>
+A responsive portfolio website with multiple color themes, dark/light mode, and smooth navigation -- built with vanilla HTML, CSS, and JavaScript.
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=githubpages&logoColor=white)
 
-<!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> :pencil: About The Project</h2>
+## Live Demo
 
-<p align="justify"> 
-  Those who are not familiar with portfolio website , it is Website which contains is your virtual resume which contains all your details like about,your skill, education ,projects etc.
-</p>
+[sagargupta16.github.io/PortFolio](https://sagargupta16.github.io/PortFolio/)
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## Overview
 
-<!-- OVERVIEW -->
-<h2 id="overview"> :cloud: Overview</h2>
+A professional portfolio website showcasing skills, projects, and experience. Features a customizable theme system with 5 color skins, dark/light mode toggle, and smooth section-based navigation with typing animations powered by Typed.js.
 
-<p align="justify"> 
-  In this Project i have designed user interface , navigation bar to travel different places easily ,different information in there withing location which is easy to navigate , it perfectoly showcase's my projects and contact details as well.
-</p>
+## Features
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+- **5 Color Themes** -- Blue, Green, Purple, Orange, and Red skin options
+- **Dark/Light Mode** -- Toggle with persistent localStorage preference
+- **Typing Animation** -- Animated role titles using Typed.js
+- **Smooth Navigation** -- Section-based navigation with active link highlighting
+- **Responsive Design** -- Sidebar nav on desktop, collapsible menu on mobile
+- **Portfolio Showcase** -- Project cards with descriptions and links
+- **Contact Section** -- Direct contact information and social links
 
-<!-- Languages and Tools -->
-<h2 id="language-and-description"> 💻 Language and Tools Used</h2>
+## Sections
 
-<ul>
-  <li><b>HTML</b> - Implemented Site Structure Using HTML.</li>
-  <li><b>CSS</b> - To control presentation, formatting, and layout used CSS.</li>
-  <li><b>JavaScript</b> - To control the behavior of different elements used JS.</li>
-  <li><b>VS Code</b> - Editor to maintain project and Work on it.</li>
-</ul>
+| Section | Description |
+|---------|-------------|
+| Home | Introduction with typing animation |
+| About | Bio, background, and summary |
+| Services | Skills and offerings |
+| Portfolio | Project showcase with screenshots |
+| Contact | Contact details and social links |
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+## Tech Stack
 
-<!-- PROJECT FILES DESCRIPTION -->
-<h2 id="project-files-description"> :floppy_disk: Project Files Description</h2>
+| Technology | Usage |
+|-----------|-------|
+| HTML5 | Page structure and content |
+| CSS3 | Styling, themes, responsive layout |
+| JavaScript | Navigation, theme switching, animations |
+| Typed.js | Typing animation effect |
+| Font Awesome 6.4.0 | Icons |
 
-<ul>
-  <li><b>index.html</b> - This File Contains All the Structure of my project which is main html file. Which bind up all files.</li>
-  <li><b>css/style.css</b> - This File Contain main CSS part of Project all the designing part resides here.</li>
-  <li><b>css/style-switcher.css</b> - This File Contains all skins changing part and its Styling and placing.</li>
-  <li><b>css/skins/color-1,2,3,4,5</b> - These Files Defines all different colors in different file each skin.</li>
-  <li><b>js/script.js</b> - This File Contains all Functionality Working Part of Website from dark mode to navigation bar functionality.</li>
-  <li><b>js/style-switcher.js</b> - This File Contains Functionality that i used to switch themes which works on click on skin bar.</li>
-</ul>
+## Project Structure
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
- 
- <h2 id="Project-Images"> Project-Images</h2>
+```
+PortFolio/
+├── index.html                  # Main portfolio page
+├── css/
+│   ├── style.css               # Core stylesheet
+│   ├── style-switcher.css      # Theme switcher panel styling
+│   └── skins/
+│       ├── color-1.css         # Blue theme
+│       ├── color-2.css         # Green theme
+│       ├── color-3.css         # Purple theme
+│       ├── color-4.css         # Orange theme
+│       └── color-5.css         # Red theme
+├── js/
+│   ├── script.js               # Core functionality and animations
+│   └── style-switcher.js       # Theme switching logic
+├── images/                     # Profile photo and project screenshots
+└── LICENSE
+```
 
-<img src="images/1_1.png" alt="Portfolio" width="100%" height="600">
-<img src="images/1_2.png" alt="Portfolio" width="100%" height="600">
-<img src="images/1_3.png" alt="Portfolio" width="100%" height="600">
-<img src="images/1_4.png" alt="Portfolio" width="100%" height="600">
+## Getting Started
+
+### Run Locally
+
+```bash
+git clone https://github.com/Sagargupta16/PortFolio.git
+cd PortFolio
+
+# Open directly in browser
+open index.html
+
+# Or use a local server
+python -m http.server 8000
+# Visit http://localhost:8000
+```
+
+### Customization
+
+1. **Content** -- Edit `index.html` to update personal information, projects, and links
+2. **Colors** -- Modify files in `css/skins/` to customize theme colors
+3. **Images** -- Replace files in `images/` with your own photos and screenshots
+
+## Screenshots
+
+<img src="images/1_1.png" alt="Portfolio Home" width="100%">
+<img src="images/1_2.png" alt="Portfolio About" width="100%">
+<img src="images/1_3.png" alt="Portfolio Projects" width="100%">
+<img src="images/1_4.png" alt="Portfolio Contact" width="100%">
+
+## License
+
+MIT
